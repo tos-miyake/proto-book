@@ -1,10 +1,8 @@
 import React from 'react'
 
-import styles from './index.module.css'
+import { Paragraph } from './paragraph'
 
-const Paragraph: React.FC<{ p: string }> = ({ p }) => {
-    return <div className={styles.paragraph}>{p}</div>
-}
+import styles from './index.module.css'
 
 type Props = {
     content: string
