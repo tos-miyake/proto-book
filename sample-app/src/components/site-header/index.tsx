@@ -5,6 +5,8 @@ import styles from './index.module.css'
 
 export { SiteHeaderItem } from './item'
 
+import { UserIcon } from '@/components/user-icon'
+
 type Props = {
     left?: JSX.Element
     right?: JSX.Element
@@ -28,7 +30,7 @@ export const SiteHeader: React.FC<Props> = ({ left, right }) => {
     const rightElement = right ? (
         right
     ) : (
-        <img className={styles.userIcon} src="/profile.png" />
+        <UserIcon src="/profile.png" />
     )
 
     return (
