@@ -16,4 +16,7 @@ yarn hasura --project hasura migrate squash --name "create-xxxxs-xxxxs" --from x
 
 # NOTE: migration 実行
 yarn hasura --project hasura migrate apply --skip-execution --version xxxxxxxxxxxxx
+
+# NOTE: test watch
+yarn jest --watch
 ```
