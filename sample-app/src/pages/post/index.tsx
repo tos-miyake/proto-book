@@ -5,6 +5,7 @@ import { Editor } from '@/components/editor'
 
 import styles from './index.module.css'
 import { SiteHeader } from '@/components/site-header'
+import { Button } from '@/components/button'
 
 const PostPage: NextPage = () => {
     const [subject, setSubject] = useState('')
@@ -35,6 +36,9 @@ const PostPage: NextPage = () => {
                     onEdit={setContent}
                 />
             </div>
+            <footer className={styles.footer}>
+                <Button className={styles.submitButton}>投稿する</Button>
+            </footer>
         </>
     )
 }

@@ -1,6 +1,14 @@
 .editContent {
     width: 640px;
-    margin: 32px auto;
+    margin: 0 auto;
+    height: calc(100vh - 80px - 71px);
+    overflow-y: scroll;
+}
+
+.footer {
+    width: 640px;
+    margin: 8px auto;
+    height: 55px;
 }
 
 .subject {
@@ -12,4 +20,8 @@
     margin-top: 24px;
     width: 100%;
     font-size:24px;
+}
+
+.submitButton {
+    margin-top: 24px;
 }
