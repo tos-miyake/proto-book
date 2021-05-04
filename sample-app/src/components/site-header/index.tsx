@@ -6,6 +6,7 @@ import styles from './index.module.css'
 export { SiteHeaderItem } from './item'
 
 import { UserIcon } from '@/components/user-icon'
+import { Logo } from '@/components/logo'
 
 type Props = {
     left?: JSX.Element
@@ -23,7 +24,7 @@ export const SiteHeader: React.FC<Props> = ({ left, right }) => {
         left
     ) : (
         <a onClick={handleClickLogo}>
-            <div>凄いブログ</div>
+            <Logo />
         </a>
     )
 
