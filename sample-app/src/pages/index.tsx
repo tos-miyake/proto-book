@@ -1,7 +1,7 @@
 import { NextPage } from 'next'
 
 const Index: NextPage = () => {
-  return <div>hoge</div>
+  return <div>root page</div>
 }
 
 export default Index
