@@ -24,7 +24,7 @@ export const ArticleHeader: React.FC<ArticleHeaderProps> = ({
         <div>
           <UserIcon src="/profile.png" />
         </div>
-        <div classname={styles.userText}>
+        <div className={styles.userText}>
           <div className={styles.userName}>
             {user.displayName} <Button>Follow</Button>
           </div>
